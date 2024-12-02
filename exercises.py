@@ -15,3 +15,19 @@ def example_list_function():
 
 # Call the function and print each element
 example_list_function()
+
+# Exercise 1: List and Indexing
+#
+# Create a list named students containing at least three student names (strings).
+# Assign the second student’s name to a variable named first_student.
+# Assign the last student’s name to a variable named last_student.
+
+def manage_students():
+    # your code here
+    student_list = ['kevin', 'stefan', 'julie']
+    first_student = student_list[1]
+    last_student = student_list[-1]
+    return first_student, last_student
+# Call the function and print the result
+first_student, last_student = manage_students()
+print('Exercise 1: First Student:', first_student, ', Last Student:', last_student)
