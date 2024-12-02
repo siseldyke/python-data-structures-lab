@@ -31,3 +31,15 @@ def manage_students():
 # Call the function and print the result
 first_student, last_student = manage_students()
 print('Exercise 1: First Student:', first_student, ', Last Student:', last_student)
+
+# Exercise 3: Slicing Tuples
+#
+# Using the slice operator, assign a new tuple containing only the last two food strings in the foods to a variable named last_two_foods.
+
+def slice_foods():
+    foods = ('onion', 'celery', 'carrot', 'garlic')
+    last_two_foods = foods[-2:]
+    return last_two_foods
+
+# Call the function and print the result
+print('Exercise 3:', slice_foods())
